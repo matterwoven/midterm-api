@@ -1,6 +1,6 @@
 import { response } from "express";
 import { events as eventees} from "./default.controller.js";
-const { events } = eventees;
+const events = eventees;
 
 export const eventsAll = () => events;
 
